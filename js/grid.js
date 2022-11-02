@@ -2,7 +2,7 @@ import { calcWinsize, adjustedBoundingRect } from './utils.js';
 import LocomotiveScroll from './locomotive-scroll.js';
 import { GridItem } from './gridItem.js';
 import { ContentItem } from './contentItem.js';
-import { gsap } from 'gsap';
+import { gsap } from './gsap.js';
 
 // body element
 const bodyEl = document.body;
