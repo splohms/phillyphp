@@ -1,5 +1,5 @@
-import { preloadImages } from './utils';
-import { Grid } from './grid';
+import { preloadImages } from './utils.js';
+import { Grid } from './grid.js';
 
 // Preload images then remove loader (loading class) from body
 preloadImages('.column__item-img').then(() => {
